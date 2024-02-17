@@ -9,7 +9,7 @@ export const Navbar = () => {
     };
   };
   return (
-    <nav>
+    <nav className="nav-1st">
       <NavLink style={navLinkStyles} to="/">
         Home
       </NavLink>
@@ -18,6 +18,9 @@ export const Navbar = () => {
       </NavLink>
       <NavLink style={navLinkStyles} to="/bulk">
         Bulk
+      </NavLink>
+      <NavLink style={navLinkStyles} to="/dt">
+        Data Tables
       </NavLink>
       <NavLink style={navLinkStyles} to="/about">
         About

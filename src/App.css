@@ -14,7 +14,7 @@ code {
     padding: 16px 32px;
 } */
 
-nav {
+.nav-1st {
     background-color: blue;
     padding: 16px 32px;
 }
@@ -30,3 +30,20 @@ nav a {
     background-color: yellow;
     color: blue;
 } */
+
+.nav-2nd {
+    /* Old Glory Blue (aka. OG-Blue)=48, 67, 99  */
+    background-color: #304363;
+    padding: 4px;
+}
+
+.nav-2nd a {
+    color: #fff;
+    padding: 4px;
+    margin-right: 16px;
+}
+
+.nav-2nd a.active {
+    color: yellow;
+    font-weight: bold;
+}
